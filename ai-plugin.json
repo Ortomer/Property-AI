@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "property_ai_plugin",
+  "name_for_human": "Property AI Plugin",
+  "description_for_model": "Provides property anomalies and upcoming lease insights for property managers.",
+  "description_for_human": "Check anomalies and lease info across your real estate properties.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://property-ai-plugin.vercel.app/openapi.yaml"
+  },
+  "logo_url": "https://property-ai-plugin.vercel.app/logo.png",
+  "contact_email": "support@aya-urban.com",
+  "legal_info_url": "https://aya-urban.com/legal"
+}
