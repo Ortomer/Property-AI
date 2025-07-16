@@ -9,9 +9,9 @@
   },
   "api": {
     "type": "openapi",
-    "url": "https://property-ai-plugin.vercel.app/openapi.yaml"
+    "url": "https://property-ai-izcc.vercel.app/openapi.yaml"
   },
-  "logo_url": "https://property-ai-plugin.vercel.app/logo.png",
+  "logo_url": "https://property-ai-izcc.vercel.app/logo.png",
   "contact_email": "support@aya-urban.com",
   "legal_info_url": "https://aya-urban.com/legal"
 }

@@ -4,9 +4,9 @@ info:
   description: API to get property anomalies and lease data.
   version: "1.0.0"
 servers:
-  - url: https://property-ai-plugin.vercel.app
+  - url: https://property-ai-izcc.vercel.app
 paths:
-  /anomalies:
+  /api/anomalies:
     get:
       summary: Get list of anomalies
       operationId: getAnomalies
@@ -33,7 +33,7 @@ paths:
                           type: string
                         description:
                           type: string
-  /properties:
+  /api/properties:
     get:
       summary: Get list of properties
       operationId: getProperties
