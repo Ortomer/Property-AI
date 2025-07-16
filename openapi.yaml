@@ -1,0 +1,60 @@
+openapi: 3.0.1
+info:
+  title: Property AI Plugin API
+  description: API to get property anomalies and lease data.
+  version: "1.0.0"
+servers:
+  - url: https://your-domain.com
+paths:
+  /anomalies:
+    get:
+      summary: Get list of anomalies
+      operationId: getAnomalies
+      responses:
+        '200':
+          description: A list of anomalies
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  anomalies:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: integer
+                        property:
+                          type: string
+                        type:
+                          type: string
+                        urgency:
+                          type: string
+                        description:
+                          type: string
+  /properties:
+    get:
+      summary: Get list of properties
+      operationId: getProperties
+      responses:
+        '200':
+          description: A list of properties
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  properties:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: integer
+                        name:
+                          type: string
+                        leaseEndDays:
+                          type: integer
+                        location:
+                          type: string
